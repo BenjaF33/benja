@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+nav {
+  background-color: aqua;
+  padding: 15px 0;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+  height: 100px;
+}
+nav > a {
+  text-decoration: none;
+  color: black;
+}
+a:hover {
+  scale: 1.1;
+  transition: all 500ms;
+}
+#nav1 {
+  background-color: blue;
+  justify-content: center;
+}
+p {
+  background-color: blue;
+  padding: 10px;
+}
+h1 {
+  text-align: center;
+  padding: 1rem;
+  border: solid 2px red;
+}
+div > img {
+  display: block;
+  margin: auto;
+  flex: unset;
+}
